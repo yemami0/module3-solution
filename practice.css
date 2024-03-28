@@ -1,0 +1,133 @@
+/* Structure of Title and Hamburger Menu */
+*{
+    box-sizing: border-box;
+}
+button {
+    float: right;
+    margin: -5px 10px 0 0;
+}
+
+#n {
+    background-color: black;
+    width: 40px;
+    height: 5px;
+    margin: 6px 0;
+}
+
+#na {
+    background-color: black;
+    width: 40px;
+    height: 5px;
+    margin: 6px 0;
+}
+
+#ne {
+    background-color: black;
+    width: 40px;
+    height: 5px;
+    margin: 6px 0;
+}
+
+#mylink {
+    margin: 2px 0 0 0;
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+.m {
+    margin-top: -2px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#ma {
+    border: 1px solid black;
+    padding: 3px 0 0 6px;
+    margin: -8px 0 0 0;
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+/* ****************************************************************** */
+
+/* Structure of List and Explain of Menu */
+
+#s {
+    text-align: center;
+}
+
+
+p {
+    position: relative;
+    font-family: Georgia sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: -2px;
+}
+
+.section {
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.575);
+    margin: 20px 20px;
+    position: relative;
+    text-align: justify;
+    padding: 12px;
+
+}
+
+.row {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    button {
+        visibility: hidden;
+    }
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width:991px) {
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    button {
+        visibility: hidden;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Cell phone view */
+@media (max-width: 767px) {
+
+    .col-sm-6 {
+        float: left;
+        width: 50%;
+    }
+
+
+    .col-sx-12 {
+        float: left;
+        width: 100%;
+    }
+}
